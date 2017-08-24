@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.outline {
+  width: 400px;
+  height: 375px;
+  border: 1px solid black;
+  background-color: grey;
+  position: relative;
+  padding: 20px;
+}
+
+.total {
+  float: right;
+  width: 100%;
+  height: 25%;
+  font-size: 4em;
+  background-color: skyblue;
+}
+
+.column {
+  float: left;
+  height: 20%;
+  width: 25%;
+}
+
+.button {
+  border: 1px solid black;
+  background-color: lightgray;
+  font-size: 2.5em;
+}
+
+.button:hover {
+  background-color: lightblue;
+}
+
+.button:active {
+  background-color: cyan;
+}
